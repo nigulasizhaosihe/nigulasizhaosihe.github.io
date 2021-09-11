@@ -295,6 +295,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/09/11/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/09/11/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -342,6 +352,30 @@
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt=" 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
@@ -352,6 +386,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/09/11/%E6%B1%82%E5%AF%8C%E5%A9%86%E4%BF%9D%E5%85%BB/" rel="prev" title="求富婆保养">
+                求富婆保养 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -377,6 +427,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -429,7 +482,7 @@
               
                 <a href="/archives/%7C%7Carchive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -448,14 +501,22 @@
                 
                   <span class="links-of-author-item">
                     <a href="https://github.com/nigulasizhaosihe" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-fab fa-github"></i>GitHub</a>
+                      GitHub</a>
                   </span>
                 
                   <span class="links-of-author-item">
                     <a href="https://www.zhihu.com/people/ppp-65-86" target="_blank" title="知乎">
-                      
-                        <i class="fa fa-fw fa-fab fa-zhihu"></i>知乎</a>
+                      知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://space.bilibili.com/616960" target="_blank" title="bilibili">
+                      bilibili</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://angelina820.lofter.com/" target="_blank" title="LOFTER">
+                      LOFTER</a>
                   </span>
                 
             </div>
@@ -670,6 +731,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '7xxjkr3xzEmQQkYBMKCi2rwV-gzGzoHsz',
+        appKey: 'UqIc4576k7MmM72J0XIe71bp',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
