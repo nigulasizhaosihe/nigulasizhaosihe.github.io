@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T14:00:02.867Z</updated>
+  <updated>2021-09-13T13:53:53.553Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用Typora写Hexo博客</title>
+    <link href="http://example.com/2021/09/13/%E7%94%A8Typora%E5%86%99Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2021/09/13/%E7%94%A8Typora%E5%86%99Hexo%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-09-13T13:42:26.000Z</published>
+    <updated>2021-09-13T13:53:53.553Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是一个typora测试文档"><a href="#这是一个typora测试文档" class="headerlink" title="这是一个typora测试文档"></a>这是一个typora测试文档</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><p>有序列表：</p><ol><li>这是一个有序列表</li><li>自动添加</li></ol><p>非自动添加</p><ol start="3"><li>降级<ol><li>降级</li></ol></li></ol><p>无序列表</p><ul><li>无序1</li></ul><ul><li>无序2<ul><li>降级<ul><li>降级</li></ul></li></ul></li></ul><p>任务列表</p><ul><li><input disabled="" type="checkbox"> 任务1</li><li><input disabled="" type="checkbox"> 任务2</li></ul><p>插入表格</p><table><thead><tr><th align="center">姓名</th><th align="center">年龄</th></tr></thead><tbody><tr><td align="center">张三</td><td align="center">25</td></tr></tbody></table><p>突出字符</p><p><code>教练我想学python！</code></p><hr><p>==教练我想学python==<br>$$<br>e^{i\pi}<br>$$</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是一个typora测试文档&quot;&gt;&lt;a href=&quot;#这是一个typora测试文档&quot; class=&quot;headerlink&quot; title=&quot;这是一个typora测试文档&quot;&gt;&lt;/a&gt;这是一个typora测试文档&lt;/h1&gt;&lt;h2 id=&quot;这是二级标题&quot;&gt;&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="-Hexo" scheme="http://example.com/categories/Hexo/"/>
+    
+    
+    <category term="-Hexo -测试" scheme="http://example.com/tags/Hexo-%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>求富婆保养</title>
